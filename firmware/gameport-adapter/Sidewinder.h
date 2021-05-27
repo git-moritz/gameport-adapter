@@ -41,7 +41,7 @@ public:
    /// Joystick state.
    struct State {
        uint16_t buttons{0};
-       uint8_t axis[5]{0};
+       uint8_t axis[4]{0};
        uint8_t hat;
    };
 
